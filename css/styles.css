@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;    
+}
+
+.saludo{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+.saludo .textos{
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.saludo .textoA{
+
+}
+.saludo .textoB{
+
+}
+.saludo .nombre{
+    color: #006081;  
+    font-weight: 700; 
+}
+
+.saludo .foto{
+}
+.saludo img{
+    height: 100%;
+
+}
+.proyectos{
+    background-color: black;
+}
+
+.proyecto{
+    padding: 10px;
+    padding-top: 50px;}
+
+.proyecto .imgProyecto{
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top-left-radius: 8px;
+    border-top: #006081 outset 2px;
+    border-left: #006081 outset 2px;
+    overflow:hidden;
+}
+
+
+.proyecto .imgProyecto img{
+    border-top-left-radius: 8px;
+    transition: all .3s ease-in-out;
+    
+}
+
+.proyecto .imgProyecto img:hover{
+    filter:blur(5px);
+    /* filter: opacity(.5); */
+    transform: scale(1.25);
+}
+
+
+.descripcionProyecto{
+    text-align: center;
+}
+
+.descripcionProyecto .titulo{
+    color: #006081;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.descripcionProyecto .descripcion{
+    font-size: 1rem;
+    font-weight: 300; 
+    color: white;
+    padding: 3px;
+}
+.descripcionProyecto .btnVisitar{
+    margin: 5px;
+    border: #006081;
+    border-width: 1px;
+    border-top-left-radius: 8px;
+    border-style: outset;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    font-weight: 400;
+}
+.descripcionProyecto .btnVisitar:hover{
+    background-color:#006181;
+}
+
+.contenedorProyectos{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+
+.proyectos2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+}
+
+.proyectos2 .contenedorProyecto{
+    margin: 10px 0 10px 0 ;
+}
+.ih-item.square{
+    height: 280px;
+    width: 410px;
+}
+
+.ih-item.square.effect6 .info h3{
+    margin: 20px 0 0 0;
+    color:#006181;
+    font-size: 1.4rem;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.ih-item.square.effect6 .info p{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 30px 10px 10px;
+}
+
+.btnVisitar{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btnVisitar:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    cursor: pointer;
+}
